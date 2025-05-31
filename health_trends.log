@@ -1,0 +1,13 @@
+2025-05-31 10:47:51,389 - INFO - Collecting posts for keyword: flu
+2025-05-31 10:47:51,401 - INFO - Authentication successful
+2025-05-31 10:47:51,403 - WARNING - It appears that you are using PRAW in an asynchronous environment.
+It is strongly recommended to use Async PRAW: https://asyncpraw.readthedocs.io.
+See https://praw.readthedocs.io/en/latest/getting_started/multiple_instances.html#discord-bots-and-asynchronous-environments for more info.
+
+2025-05-31 10:47:54,011 - INFO - Collected 100 posts
+2025-05-31 10:47:54,025 - INFO - Data cleaned
+2025-05-31 10:47:59,942 - INFO - Location data added
+2025-05-31 10:48:00,149 - INFO - Sentiment analysis completed
+2025-05-31 10:48:00,486 - INFO - Topic modeling completed
+2025-05-31 10:48:00,496 - INFO - Time series analysis completed
+2025-05-31 10:48:02,348 - INFO - Analysis complete
