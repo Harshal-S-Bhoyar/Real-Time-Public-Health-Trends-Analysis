@@ -47,7 +47,7 @@ LOCATIONS = ["New York", "California", "London", "Toronto", "Delhi", "Texas", "F
 # ----------------------------
 
 st.set_page_config(page_title="Reddit Health Trends Analyzer", layout="wide")
-st.title("🩺 Reddit Health Trends Analyzer")
+st.title("Reddit Health Trends Analyzer")
 st.markdown("Enter a keyword to analyze health-related discussions on Reddit.")
 
 # Input widget (replaces ipywidgets.Text)
@@ -255,4 +255,5 @@ if st.button(" Search and Analyze", type="primary"):
             st.exception(f"An error occurred: {e}")
             logging.error(f"Error: {e}")
 else:
+
     st.info("Enter a keyword and click **Search and Analyze** to begin.")
