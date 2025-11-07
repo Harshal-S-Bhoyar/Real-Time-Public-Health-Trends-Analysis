@@ -33,7 +33,7 @@ cd health-trends-analysis
 # Install Dependencies:
 - pip install scikit-learn scipy numpy pandas matplotlib statsmodels
 - pip install praw textblob geopy folium python-dotenv
-- pip install sqlalchemy
+- pip install sqlalchemy streamlit streamlit_folium
 - pip install jupyterlab ipywidgets jupyterlab-widgets
 
 # Set Up Reddit API Credentials:
